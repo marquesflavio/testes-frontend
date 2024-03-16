@@ -11,3 +11,15 @@ Um teste sólido normalmente contém 3 fases:
 3. Fazer uma afirmação sobre o resultado da aplicação
 
 "Given, When, Then" ou "Arrange, Act, Assert".
+
+
+
+## Observações de estudo
+
+É importante ajustar duas configs antes de rodar o projeto sem erros, a primeira, é no tsconfig.json e a segunda é incluir dentro da pasta cypress um outro tsconfig.json, a orientação está em tooling na documentação. Necessário para o uso com TypeScript.
+
+## Algumas dicas de situações comuns com testes
+
+docs.cypress.io/guides/end-to-end-testing/testing-your-app
+
+https://learn.cypress.io/testing-your-first-application/app-install-and-overview
